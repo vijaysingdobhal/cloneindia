@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Clone</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/Logo.svg" rel="icon">
+  <!-- <link href="assets/img/Logo.svg" rel="apple-touch-icon"> -->
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Nova
+  * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/Logo.svg" alt="Clone Logo">
+        <!-- <h1 class="sitename">Clone</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home<br></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+          <li><a href="team.html">Team</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4">
+            <h1 data-aos="fade-up">Simplify Document Printing</h1>
+            <blockquote data-aos="fade-up" data-aos-delay="100">
+              <p>Streamline your document printing process with Clone. Connect, send, and print with ease, reducing
+                complexity and saving time.</p>
+            </blockquote>
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
+                class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch
+                  Video</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section><!-- /Hero Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section">
+
+      <div class="container">
+
+        <div class="row g-0">
+
+          <div class="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/why-us-bg.jpg" alt="">
+          </div>
+
+          <div class="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "centeredSlides": true,
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Streamline Your Document Workflow, Step by Step</h3>
+                    <h4 class="mb-3">Simplify document sharing and enhance productivity with tailored strategies
+                      designed to fit your needs.</h4>
+                    <p>Empower your business to efficiently manage document transfers, reduce manual steps, and ensure
+                      seamless collaboration with shop owners. Let’s optimize your document workflow and make your
+                      ambitions a reality.</p>
+
+
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Stay Organized and Efficient</h3>
+                    <h4 class="mb-3">Establish a streamlined approach and stay dedicated to optimizing your document
+                      management without distractions.</h4>
+                    <p>Maintain focus and efficiency by eliminating unnecessary steps. Keep your workflow aligned with
+                      your goals, ensuring seamless document transfers and collaboration with shop owners.</p>
+
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Streamline and Scale</h3>
+                    <h4 class="mb-3">Concentrate on what truly matters and grow your efficiency with clarity and
+                      purpose.</h4>
+                    <p>Reduce complexities, eliminate unnecessary steps, and focus on seamless document transfers,
+                      enhancing productivity and reaching your goals effectively.</p>
+
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Convert Challenges into Solutions</h3>
+                    <h4 class="mb-3">Overcome obstacles and embrace new opportunities with confidence and determination.
+                    </h4>
+                    <p>Leverage innovative approaches, adapt to evolving needs, and transform challenges into
+                      streamlined, efficient solutions for your document transfer needs.</p>
+
+                  </div>
+                </div><!-- End slide item -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Services</h2>
+        <p>Empowering seamless document transfers from your smartphone to shop owners, reducing manual steps and
+          enhancing efficiency.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-share" style="color: #f57813;"></i></div>
+            <div>
+              <h4 class="title">Document Transfer</h4>
+              <p class="description">Effortlessly send documents from your smartphone to shop desktops, reducing manual
+                interactions and improving efficiency.</p>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-printer" style="color: #15a04a;"></i></div>
+            <div>
+              <h4 class="title">Xerox Integration</h4>
+              <p class="description">Directly connect smartphones to shop systems for seamless document printing without
+                the need for manual uploads.</p>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-cloud-arrow-down" style="color: #d90769;"></i></div>
+            <div>
+              <h4 class="title">Cloud-Based Management</h4>
+              <p class="description">Centralize document management, ensuring secure, fast, and reliable document
+                sharing between users and shops.</p>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-tools" style="color: #15bfbc;"></i></div>
+            <div>
+              <h4 class="title">Easy Setup & Use</h4>
+              <p class="description">Simplify the setup process and ensure a smooth user experience for both customers
+                and shop owners.</p>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-shield-lock" style="color: #f5cf13;"></i></div>
+            <div>
+              <h4 class="title">Secure Document Transfers</h4>
+              <p class="description">Ensure secure and encrypted document sharing between users and shop systems to
+                protect sensitive information.</p>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-calendar-event" style="color: #1335f5;"></i></div>
+            <div>
+              <h4 class="title">Automated Notifications</h4>
+              <p class="description">Receive real-time notifications when documents are ready for collection, enhancing
+                coordination and reducing wait times.</p>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg-clone.jpg" alt="">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Transform Your Document Workflow</h3>
+              <p>Seamlessly send documents to shop owners with our CLONE app, reducing manual steps and enhancing
+                efficiency. Experience hassle-free, secure, and faster document transfers.</p>
+              <a class="cta-btn" href="#">Get Started Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="mb-0">Streamlined Features for</h3>
+            <h3>Your Business Efficiency</h3>
+
+            <div class="row gy-4">
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-send" style="color: #ff8b2c;"></i>
+                  <span>Seamless Document Transfer</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-link-45deg" style="color: #5578ff;"></i>
+                  <span>Easy Connection with Shop Owners</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-shield-check" style="color: #e80368;"></i>
+                  <span>Secure Document Transfers</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-cloud-upload" style="color: #ffa76e;"></i>
+                  <span>Cloud-Based Document Management</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <!-- <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-battery-charging" style="color: #11dbcf;"></i>
+                  <span>Efficient and Battery-Saving Mode</span>
+                </div>
+              </div>End Icon List Item -->
+
+              <!-- <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-geo-alt" style="color: #4233ff;"></i>
+                  <span>Real-Time Location-Based Connections</span>
+                </div>
+              </div>End Icon List Item -->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-chat-dots" style="color: #29cc61;"></i>
+                  <span>Direct Communication with Shop Owners</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-speedometer" style="color: #ff5828;"></i>
+                  <span>Enhanced Workflow Efficiency</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+            </div>
+          </div>
+          <div class="col-lg-5 position-relative" data-aos="zoom-out" data-aos-delay="200">
+            <div class="phone-wrap">
+              <img src="assets/img/iphone.png" alt="Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="details">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <h4>Transform Your Document Workflow</h4>
+              <p>Enhance your efficiency by reducing manual steps and streamlining document transfers to shop owners.
+                The CLONE project eliminates the need for traditional methods like WhatsApp or email by providing a
+                dedicated app for seamless and secure document sharing. This not only saves time but also ensures the
+                accuracy and security of your data. With CLONE, users can connect to shop desktops via QR codes, send
+                files with predefined printing preferences, and streamline the entire document printing process,
+                enhancing overall productivity and reducing the reliance on physical interactions.</p>
+              <a href="#about" class="btn-get-started">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Recent Posts Section -->
+    <!-- <section id="recent-posts" class="recent-posts section"> -->
+
+    <!-- Section Title -->
+    <!-- <div class="container section-title" data-aos="fade-up">
+        <h2>Recent Blog Posts</h2> -->
+
+    <!-- </div>End Section Title -->
+
+    <!-- <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, December 12</span>
+                <span class="post-author"> / Julia Parker</span>
+              </div>
+              <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+              <p>Illum voluptas ab enim placeat. Adipisci enim velit nulla. Vel omnis laudantium. Asperiores eum ipsa
+                est officiis. Modi qui magni est...</p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Fri, September 05</span>
+                <span class="post-author"> / Mario Douglas</span>
+              </div>
+              <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
+              <p>Voluptatem nesciunt omnis libero autem tempora enim ut ipsam id. Odit quia ab eum assumenda. Quisquam
+                omnis doloribus...</p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, July 27</span>
+                <span class="post-author"> / Lisa Hunter</span>
+              </div>
+              <h3 class="post-title">Quia assumenda est et veritati</h3>
+              <p>Quia nam eaque omnis explicabo similique eum quaerat similique laboriosam. Quis omnis repellat sed quae
+                consectetur magnam...</p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-4.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, Sep 16</span>
+                <span class="post-author"> / Mario Douglas</span>
+              </div>
+              <h3 class="post-title">Pariatur quia facilis similique deleniti</h3>
+              <p>Et consequatur eveniet nam voluptas commodi cumque ea est ex. Aut quis omnis sint ipsum earum quia
+                eligendi...</p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>/Recent Posts Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Clone</span>
+            </a>
+            <p>Empower your document workflow with CLONE, transforming the way you share and print documents. Say
+              goodbye to manual steps and welcome seamless, efficient document transfers to shop owners. CLONE ensures
+              secure and hassle-free printing by connecting smartphones to shop desktops via QR codes, reducing effort
+              and improving productivity.</p>
+
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Document Printing</a></li>
+              <li><a href="#">Seamless File Sharing</a></li>
+              <li><a href="#">Printing Preference Setup</a></li>
+              <li><a href="#">Shop Locator</a></li>
+              <li><a href="#">Effortless Workflow</a></li>
+            </ul>
+          </div>
+
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>Sinhgad Campus</p>
+            <p>Pune,Maharashtra</p>
+            <p>India</p>
+            <p class="mt-4"><strong>Phone:</strong> <span>+91 9511769008</span></p>
+            <p><strong>Email:</strong> <span>cloneindia5771@gmail.com</span></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Clone</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- Keep the attributions intact as per licensing terms. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
